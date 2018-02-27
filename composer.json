@@ -1,0 +1,20 @@
+{
+    "name": "simbo1905/hello-composer",
+    "description": "tests composer",
+    "authors": [
+        {
+            "name": "simbo1905",
+            "email": "simbo1905@60hertz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+
+}
