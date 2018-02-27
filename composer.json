@@ -9,12 +9,16 @@
     ],
     "minimum-stability": "dev",
     "require": {
-	"php": ">=7.0.0"
+	"php": ">=7.0.0",
+        "phpunit/php-timer": "^2.0@dev"
     },
     "autoload": {
         "psr-0": {
             "HelloWorld": "src/"
-        }
+        },
+    	"classname": {
+      	    "PHP_Timer": "src/"
+    	}
     }
 
 }
